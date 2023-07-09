@@ -48,14 +48,25 @@ return title;
 } //end addToCollection
 
 //console.log(addToCollection('Rain World', 'James Primate', 2017));
-console.log(addToCollection(rainWorld));
-console.log(addToCollection(seventhSon));
-console.log(addToCollection(darkWood));
-console.log(addToCollection(downPour));
-console.log(addToCollection(oneShot));
-console.log(addToCollection(boardsOfCanda));
+console.log(addToCollection(rainWorld.title, rainWorld.artist, rainWorld.yearPublished));
+console.log(addToCollection(seventhSon.title, seventhSon.artist, seventhSon.yearPublished));
+console.log(addToCollection(darkWood.title, darkWood.artist, darkWood.yearPublished));
+console.log(addToCollection(downPour.title, downPour.artist, downPour.yearPublished));
+console.log(addToCollection(oneShot.title, oneShot.artist, oneShot.yearPublished));
+console.log(addToCollection(boardsOfCanda.title, boardsOfCanda.artist, boardsOfCanda.yearPublished));
 
+console.log(collection);
 
+let artists = [rainWorld.artist, seventhSon.artist, darkWood.artist, downPour.artist, oneShot.artist, boardsOfCanda.artist];
+let titles = [rainWorld.title, seventhSon.title, darkWood.title, downPour.title, oneShot.title, boardsOfCanda.title];
+let years = [rainWorld.yearPublished, seventhSon.yearPublished, darkWood.yearPublished, downPour.yearPublished, oneShot.yearPublished, boardsOfCanda.yearPublished];
+
+function showCollection(array){
+console.log(array.length);
+
+}
+
+showCollection(collection);
 //console.log( 'In addToCollection: ', title);
 //collection.push(title, artist, yearPublished);
 //console.log(collection);

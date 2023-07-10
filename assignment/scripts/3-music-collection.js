@@ -1,37 +1,38 @@
 console.log('***** Music Collection *****')
  
 let collection = [];
-
+//0
 let rainWorld ={
 title: 'Rain World',
 artist: 'James Primate',
 yearPublished: 2017
 } //end rainWorld
 
+//1
 let seventhSon ={
     title: 'Seventh Son of a Seventh Son',
     artist: 'Iron Maiden',
     yearPublished: 1988
 }
-
+//2
 let darkWood ={
     title: 'Darkwood',
     artist: 'Arthur Kordas',
     yearPublished: 2014
 }
-
+//3
 let downPour ={
     title: 'Downpour',
     artist: 'James Primate',
     yearPublished: 2022
 }
-
+//4
 let oneShot ={
     title: 'OneShot',
     artist: 'Nightmargin',
     yearPublished: 2016
 }
-
+//5
 let boardsOfCanda ={
     title: 'Geogaddi',
     artist: 'Boards of Canada',
@@ -62,11 +63,23 @@ let titles = [rainWorld.title, seventhSon.title, darkWood.title, downPour.title,
 let years = [rainWorld.yearPublished, seventhSon.yearPublished, darkWood.yearPublished, downPour.yearPublished, oneShot.yearPublished, boardsOfCanda.yearPublished];
 
 function showCollection(array){
-console.log(array.length);
+console.log(array,'Number of items:', array.length);
+console.log(array.title, ' by ', array.artist, 'published in year:', array.yearPublished)
+
+};
+
+showCollection(oneShot);
+
+function findByArtist(artist){
+let artArray = [];
+if(collection[i] < collection.length, i++){
+if(collection[i] = artist){
+artArray.push()
 
 }
+}
+}
 
-showCollection(collection);
 //console.log( 'In addToCollection: ', title);
 //collection.push(title, artist, yearPublished);
 //console.log(collection);

@@ -67,19 +67,21 @@ console.log(array,'Number of items:', array.length);
 console.log(array.title, ' by ', array.artist, 'published in year:', array.yearPublished)
 
 };
-
 showCollection(oneShot);
 
 function findByArtist(artist){
-let artArray = [];
-if(collection[i] < collection.length, i++){
-if(collection[i] = artist){
-artArray.push()
+for( let find of collection){
+    console.log(find)
+    if(find === artist){
+        console.log('found him')
+
+    }
+   
+}
 
 }
-}
-}
 
+findByArtist('Boards of Canada');
 //console.log( 'In addToCollection: ', title);
 //collection.push(title, artist, yearPublished);
 //console.log(collection);
